@@ -1,0 +1,17 @@
+@import "./variables";
+@import "./mixins";
+@import "./base";
+
+@import "./components/header";
+@import "./components/footer";
+@import "./components/login";
+@import "./components//register";
+
+//Pages
+@import "./components/home";
+@import "./components/type";
+@import "./components/detailsAreas";
+@import "./components/about";
+@import "./components/contact";
+@import "./components/faq";
+@import "./components/homeTest"

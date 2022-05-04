@@ -1,0 +1,44 @@
+.footer {
+    padding: 0px 0px 0px 0px;
+
+    background: #ECE9E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    font-size: 1.1rem;
+    color: #333;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 30px;
+
+    &__logo {
+        height: 50px;
+        margin-top: 2rem;
+    }
+
+    &__about {
+        p {
+            margin-bottom: 1rem;
+            color: #333;
+        }
+    }
+
+    &__title {
+        color: #333;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+        margin-top: 2rem;
+        font-weight: 600;
+    }
+
+    &__content {
+        p {
+            color: #333;
+            // margin-bottom: 1rem;
+        }
+    }
+
+    i {
+        font-size: 20px;
+        color: $main-color;
+        padding: 2px;
+    }
+}

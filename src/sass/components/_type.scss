@@ -1,0 +1,44 @@
+// .area__type__img {
+//     position:absolute;
+// }
+
+.type__title {
+    text-align: center;
+
+    .type__title__h2 {
+
+    }
+    .type__title__h5 {  
+        padding: 10px 0px;
+    }
+}
+
+.img__area {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+
+    .img__area__item {
+        background: linear-gradient(
+            rgba(255,255,255,0.7),
+            rgba(255,255,255,0.3)
+        );        
+    }
+}
+
+.type__title {
+    color: white;
+    font-weight: 900;
+
+    .padding__top {
+        padding-top: 5px;
+    }
+}
+.type__des {
+    color: white;
+    font-weight: 900;
+}

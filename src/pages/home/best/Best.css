@@ -1,0 +1,80 @@
+.best {
+    width: 100%;
+    margin: 7rem 0;
+    text-align: center;
+    padding: 0rem 15rem;
+}
+
+.name {
+    padding-top: 20px;
+}
+i {
+    font-size: 20px;
+    color: #85C700;
+    padding-right: 3px;
+    text-align: center;
+}
+.icon__large {
+    font-size: 3rem;
+}
+
+.best > div {
+    display: flex;
+    justify-content: center;
+}
+
+.best > div p {
+    margin: 1rem 2rem;
+    font-size: 1.2rem;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.best .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.2rem;
+    padding: 1rem;
+}
+
+.best img {
+    width: 90%;
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+
+.img-hover-zoom--colorize img {
+    transition: transform .5s, filter 1.5s ease-in-out;
+}
+/* The Transformation */
+.img-hover-zoom--colorize:hover img {
+    filter: grayscale(0);
+    transform: scale(1.1);
+    filter: grayscale(50%);
+}
+
+@media screen and (max-width:940px) {
+    .best {
+        margin: 1rem 0;
+    }
+
+    .best > div p {
+        margin: 1rem;
+        font-size: 1rem;
+    }
+
+    .best .container {
+        grid-template-columns: 1fr;
+        grid-gap: .5rem;
+    }
+}
+
+@media screen and (max-width: 478px) {
+    .best > div p {
+        margin: 1rem .5rem;
+    }
+}

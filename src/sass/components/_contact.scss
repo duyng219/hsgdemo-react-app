@@ -1,0 +1,29 @@
+/* 
+contact
+-------
+*/
+.contactBlock {
+    padding-top: 30px;
+}
+.contactBlock .ant-form {
+    max-width: 640px;
+    margin: auto;
+  }
+  
+  .contactBlock .ant-form textarea {
+    min-height: 120px;
+    height: 120px;
+  }
+
+.btn-form-contact {
+    background-color: #F4F9EC;
+    border-color: #F4F9EC;
+    color: #333;
+}
+
+.btn-form-contact:hover {
+    background-color: #85c700;
+    border-color: #85c700;
+}
+
+

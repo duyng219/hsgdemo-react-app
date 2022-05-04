@@ -1,0 +1,58 @@
+.container__home__header {
+    background: linear-gradient(
+        rgba(255,255,255,0.1),
+        rgba(255,255,255,0.4)
+    ),
+    url("https://kent.vn/wp-content/uploads/2018/07/how-to-layout-three-bedrooms.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    position: absolute;
+    left: 0;
+    right: 0;
+
+    .row__home {
+        padding: 160px 29px;
+    }
+
+    .row__home__content {
+        position: absolute;
+        padding-top: 20rem;
+        // padding: 12rem 0rem 0rem 27rem;
+    }
+}
+
+.home__content {
+    padding-top: 57rem;
+    text-align: center;
+}
+
+.home__content__h {
+    
+}
+
+.home__content__content {
+    margin: 2rem 12rem 1rem 12rem;
+
+    //IMAGE CONTENT HOME
+    .img-fluid__hover {
+        border-radius: 2rem;
+        width: 26rem;
+        overflow: hidden;
+        transition: transform .5s, filter 1.5s ease-in-out;
+        filter: grayscale(0%);
+    }
+    .img-fluid__hover:hover {
+        filter: grayscale(0);
+        transform: scale(1.1);
+    }
+    //IMAGE CONTENT HOME
+
+    .item {
+        
+    }
+
+    
+}
+
+

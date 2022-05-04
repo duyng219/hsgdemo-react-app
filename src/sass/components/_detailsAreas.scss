@@ -1,0 +1,47 @@
+.table__first__info {
+    ul {
+        display: none;
+    }
+}
+
+.table__first {
+    ul {
+        display: none;
+    }
+}
+
+.ant-table-title {
+    text-align: center;
+    font-weight: bold;
+    color: green;
+}
+
+.text-align {
+    text-align: center;
+}
+.table__first__info
+    > .ant-table-wrapper
+    > .ant-spin-nested-loading
+    > .ant-spin-container
+    > .ant-table
+    > .ant-table-container
+    > .ant-table-content
+    > table
+    > thead
+    > tr
+    > th {
+    text-align: center;
+}
+.table__first__info
+    > .ant-table-wrapper
+    > .ant-spin-nested-loading
+    > .ant-spin-container
+    > .ant-table
+    > .ant-table-container
+    > .ant-table-content
+    > table
+    > tbody
+    > tr
+    > td {
+    text-align: center;
+}
